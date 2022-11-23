@@ -5,7 +5,7 @@ public class Main
 	public static void main(String[] args) {
          int count =0;
          ArrayList<String> dict=new ArrayList<>();
-         File file = new File("pathname.txt");//Enter the location of the input.txt file
+         File file = new File("input_01 or input_02.txt");//Enter the location of the input.txt file
          Scanner sc = new Scanner(file);
          while(sc.hasNext())
          {
